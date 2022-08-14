@@ -33,12 +33,14 @@ LIMITATIONS
 *************************************
 DOCUMENTATION AND CODING CONVENTIONS
 *************************************
+This section is included to ensure consistent code throughout the project.
+
 ### **Documentation:**
 All methods/functions must include descriptive information about the method operations,parameters and return. Documentation must appear direclty below method decleration.
 
-**single line comment:** //everything to the right of the slashes is a comment.
+**Single line comment:** //everything to the right of the slashes is a comment.
 
-**multi line comments:** 
+**Multi line comments:** 
 
                       /*                 
                       * everything                     
@@ -47,7 +49,7 @@ All methods/functions must include descriptive information about the method oper
                       * is a
                       * comment
                       */
-**javadoc:** 
+**Javadoc:** 
 
           /**
           * explain what the method does.
@@ -75,5 +77,10 @@ All methods/functions must include descriptive information about the method oper
         System.out.println("Invalid input");    // if u is neither celcuis or fehrenheit.
     }
  
-    
+   
+### **Coding**
+
+It is important to use self explanatory variable names. This makes reading your code easier.
+
+### **TBA**
     
