@@ -34,7 +34,7 @@ multi line comments: /*
                       * is a
                       * comment
                       */
-javaDoc: /**
+javadoc: /**
           * explain what the method does.
           * @param x describe the parameter
           * @return explain what is returned
