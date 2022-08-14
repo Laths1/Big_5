@@ -1,8 +1,19 @@
-Group Name : Big_5
-Group Members : [Lathitha Nongauza , ]
-Group Mentor : 
-Project Title :
-Project Page :
+# BIG 5
+
+### Group Members :
+Lathitha Nongauza
+
+Luphumlo Hamla
+
+Uyazi Yako
+
+Tshiamo Khosana
+
+Anda Gwele 
+
+### Group Mentor : 
+### Project Title :
+### Project Page :
 
 ************
 INSTRUCTIONS
@@ -22,25 +33,29 @@ LIMITATIONS
 *************************************
 DOCUMENTATION AND CODING CONVENTIONS
 *************************************
-Documentation:
-All methods/functions must include descriptive information about the method operations,parameters and return.Documentation must appear direclty below method decleration.
+### **Documentation:**
+All methods/functions must include descriptive information about the method operations,parameters and return. Documentation must appear direclty below method decleration.
 
-single line comment: //everything to the right of the slashes is a comment.
+**single line comment:** //everything to the right of the slashes is a comment.
 
-multi line comments: /* 
-                      * everything 
-                      * between '/*'
+**multi line comments:** 
+
+                      /*                 
+                      * everything                     
+                      * between '/*'           
                       * and '*/'
                       * is a
                       * comment
                       */
-javadoc: /**
+**javadoc:** 
+
+          /**
           * explain what the method does.
           * @param x describe the parameter
           * @return explain what is returned
           */
 
-EXAMPLE:
+**EXAMPLE:**
 
     static void tempConversion(double t, String u)
     /**
