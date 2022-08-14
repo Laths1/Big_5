@@ -1,15 +1,16 @@
 # BIG 5
 
 ### Group Members :
+
+Anda Gwele 
+
 Lathitha Nongauza
 
 Luphumlo Hamla
 
-Uyazi Yako
-
 Tshiamo Khosana
 
-Anda Gwele 
+Uyazi Yako
 
 ### Group Mentor : 
 ### Project Title :
