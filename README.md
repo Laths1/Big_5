@@ -12,7 +12,7 @@ Tshiamo Khosana
 
 Uyazi Yako
 
-### Group Mentor : 
+### Group Mentor : Sihle Sithole
 ### Project Title :
 ### Project Page :
 
