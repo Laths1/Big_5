@@ -16,20 +16,12 @@ public class Math
 		System.out.println();
 		//creating 5 random numbers 
 
-		Random num1= new Random();
-		int Num1= num1.nextInt(10);
-		
-		Random num2= new Random();	
-		int Num2= num2.nextInt(10)+1;		
-
-		Random num3= new Random();	
-		int Num3= num3.nextInt(10)-1;
-		
-		Random num4= new Random();	
-		int Num4= num4.nextInt(10)+2;
-
-		Random num5= new Random();	
-		int Num5= num5.nextInt(10)-2;
+		Random randomNum= new Random();
+		int Num1=randomNum.nextInt(10);	
+		int Num2= randomNum.nextInt(10)+1;			
+		int Num3= randomNum.nextInt(10)-1;	
+		int Num4= randomNum.nextInt(10)+2;	
+		int Num5= randomNum.nextInt(10)-2;
 
 		// done creating those 5 random numbers
 
@@ -118,20 +110,12 @@ public class Math
         System.out.println();
         //creating 5 random numbers 
 
-        Random n1= new Random();
-        int N1= n1.nextInt(10);
-        
-        Random n2= new Random();  
-        int N2= n2.nextInt(10)+1;       
-
-        Random n3= new Random();  
-        int N3= n3.nextInt(10)-1;
-        
-        Random n4= new Random();  
-        int N4= n4.nextInt(10)+2;
-
-        Random n5= new Random();  
-        int N5= n5.nextInt(10)-2;
+        Random randNum= new Random();
+        int N1= randNum.nextInt(10);
+        int N2= randNum.nextInt(10)+1;       
+        int N3= randNum.nextInt(10)-1;         
+        int N4= randNum.nextInt(10)+2;    
+        int N5= randNum.nextInt(10)-2;
 
         // done creating those 5 random numbers
 
