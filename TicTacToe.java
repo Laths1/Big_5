@@ -5,7 +5,8 @@ public class TicTacToe{
     public static void main(String[] args){
         Game();
     }
-    public static int userInput(String s){      //gets input from user.
+    public static int userInput(String s){      
+        //gets input from user.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter" +" "+s+":");
         return sc.nextInt();
@@ -16,21 +17,22 @@ public class TicTacToe{
      * @param v is int array of row and column
      * @return integer array containing row and column
      */
-    public static int[] checkEmptyIndex(int[][] eArray, int[] v)
-    
-    {        
-        int row = userInput("row");     //gets row index.
-        int column = userInput("column");       //gets column index.
-        int[] values = v;        //creates array to store row an column.
-        if(eArray[row][column]==0)
+    public static int[] checkEmptyIndex(int[][] eArray, int[] v){ 
+        //gets row index.       
+        int row = userInput("row"); 
+        //gets column index.    
+        int column = userInput("column"); 
+         //creates array to store row and column indices.     
+        int[] values = v;     
+        
         // checks if the chosen index is unchanged
-        {
+        if(eArray[row][column]==0){
             values[0]=row; 
             values[1]=column; 
             return values;
-        }else
-        //if its been changed, this method is called again.
-        {
+        }
+        //if its been changed, checkEmptyIndex is called again.
+        else{
             System.out.println("Index is occupied");
             checkEmptyIndex(eArray,values);
         }
@@ -49,35 +51,40 @@ public class TicTacToe{
                 System.out.print(dArray[i][j] + " ");
                 System.out.print("|");
             }
-            System.out.println(); // new line
-            System.out.println("---------------"); // new line
+            //Horizontal line.
+            System.out.println(); 
+            System.out.println("---------------"); 
           }
     }
     
-    public static void Game()
+    
     /**
-     * Creats 2D array of the TicTacToe game.
-     * @return void
+     * Game
+     * The 3x3 matrix is declared.Includes alternating X and O
+     * @retun void
      */
-    {
-        int[][] array= new int[3][3];       //3x3 matrix.
+    public static void Game(){
+        //3x3 matrix.
+        int[][] array= new int[3][3];  
+
         int checkAnsCounter=0;
         int x_o_flipper=3;      
         int[] row_column=new int[2];
         for(int turnCounter=0; turnCounter<9;turnCounter++){
             row_column=checkEmptyIndex(array,row_column);
             array[row_column[0]][row_column[1]] = x_o_flipper;
-
-            if(x_o_flipper == 3){       // if o is entered, then the next value is 1.
+             // if o is entered, then the next value is 1.
+            if(x_o_flipper == 3){      
                 x_o_flipper=6;
             }else{
                 x_o_flipper=3;
             }
-
-            if(checkAnsCounter>3){      // checks for solutions after the 4th move.
+            // checks for solutions after the 4th move.
+            if(checkAnsCounter>3){      
                 checkAnswer(array);
             }
-            displayGame(array);     //prints 2d array.
+            //prints 2d array.
+            displayGame(array);     
         }
     }
 }

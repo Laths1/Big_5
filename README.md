@@ -38,6 +38,7 @@ This section is included to ensure consistent code throughout the project.
 
 ### **Documentation:**
 All methods/functions must include descriptive information about the method operations,parameters and return. 
+All single line comments apply to code directly underneath.
 
 **Single line comment:** //everything to the right of the slashes is a comment.
 
