@@ -61,12 +61,12 @@ All methods/functions must include descriptive information about the method oper
           javadoc must appear directly above the class/method declaration.
 
 **EXAMPLE:**
-    /**
-     * this method converts a temperature from celcius to fehrenheit and vice-versa.
-     * @param t t(double) is the temperature that will be converted.
-     * @param u u(string) is tells us if the temperature entered is celcuis or fehrenheit.
-     * @return non-returning method, but prints the result.
-     */
+        /**
+        * this method converts a temperature from celcius to fehrenheit and vice-versa.
+        * @param t t(double) is the temperature that will be converted.
+        * @param u u(string) is tells us if the temperature entered is celcuis or fehrenheit.
+        * @return non-returning method, but prints the result.
+        */
     static void tempConversion(double t, String u)
     {
         if(u.equals("c")){      //checks if the temperature is in celcius.
