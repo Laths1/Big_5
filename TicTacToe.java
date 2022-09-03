@@ -11,7 +11,7 @@ public class TicTacToe{
         return sc.nextInt();
     }
     /**
-     * checkEmptyIndex
+     * checkEmptyIndex- checks if position is available.
      * @param eArray 3x3 matrix of the game
      * @param v is int array of row and column
      * @return integer array containing row and column
