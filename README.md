@@ -61,23 +61,24 @@ All methods/functions must include descriptive information about the method oper
           javadoc must appear directly above the class/method declaration.
 
 **EXAMPLE:**
-        /**
-        * this method converts a temperature from celcius to fehrenheit and vice-versa.
-        * @param t t(double) is the temperature that will be converted.
-        * @param u u(string) is tells us if the temperature entered is celcuis or fehrenheit.
-        * @return non-returning method, but prints the result.
-        */
-    static void tempConversion(double t, String u)
-    {
-        if(u.equals("c")){      //checks if the temperature is in celcius.
-           System.out.println(t +" "+u.toUpperCase() +" " + "is " + (t*1.8 +32) +" "+"F");
-           return;
-        }else if(u.equals("f")){      //checks if the temperature is in fehrenheit.
-            System.out.println(t +" "+u.toUpperCase() +" " + "is " +((t-32.0)*(5.0/9.0))+" "+"C" );
-            return;
-        }
-        System.out.println("Invalid input");    // if u is neither celcuis or fehrenheit.
-    }
+
+                /**
+                * this method converts a temperature from celcius to fehrenheit and vice-versa.
+                * @param t t(double) is the temperature that will be converted.
+                * @param u u(string) is tells us if the temperature entered is celcuis or fehrenheit.
+                * @return non-returning method, but prints the result.
+                */
+            static void tempConversion(double t, String u)
+            {
+                if(u.equals("c")){      //checks if the temperature is in celcius.
+                   System.out.println(t +" "+u.toUpperCase() +" " + "is " + (t*1.8 +32) +" "+"F");
+                   return;
+                }else if(u.equals("f")){      //checks if the temperature is in fehrenheit.
+                    System.out.println(t +" "+u.toUpperCase() +" " + "is " +((t-32.0)*(5.0/9.0))+" "+"C" );
+                    return;
+                }
+                System.out.println("Invalid input");    // if u is neither celcuis or fehrenheit.
+            }
  
    
 ### **Coding**
