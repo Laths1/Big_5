@@ -37,7 +37,7 @@ DOCUMENTATION AND CODING CONVENTIONS
 This section is included to ensure consistent code throughout the project.
 
 ### **Documentation:**
-All methods/functions must include descriptive information about the method operations,parameters and return. Documentation must appear direclty below method decleration.
+All methods/functions must include descriptive information about the method operations,parameters and return. 
 
 **Single line comment:** //everything to the right of the slashes is a comment.
 
@@ -58,15 +58,16 @@ All methods/functions must include descriptive information about the method oper
           * @return explain what is returned
           */
 
-**EXAMPLE:**
+          javadoc must appear directly above the class/method declaration.
 
-    static void tempConversion(double t, String u)
+**EXAMPLE:**
     /**
      * this method converts a temperature from celcius to fehrenheit and vice-versa.
      * @param t t(double) is the temperature that will be converted.
      * @param u u(string) is tells us if the temperature entered is celcuis or fehrenheit.
      * @return non-returning method, but prints the result.
      */
+    static void tempConversion(double t, String u)
     {
         if(u.equals("c")){      //checks if the temperature is in celcius.
            System.out.println(t +" "+u.toUpperCase() +" " + "is " + (t*1.8 +32) +" "+"F");
