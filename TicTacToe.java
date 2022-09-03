@@ -1,5 +1,4 @@
-import java.util.Scanner;
-import java.util.Arrays;
+import java.util.*; //this star calls all the classes and methods on java including the Array one
 public class TicTacToe{
 
     public static void main(String[] args){
