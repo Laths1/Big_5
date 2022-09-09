@@ -293,7 +293,7 @@ public class Math
 
 
     //START OF STAGE 4
-     //In this function i am creating 5 random numbers which are all less than 10
+     //In this function i am creating 2 random numbers which are all less than 10 //im not done here i'll be back to edit this
 
     public static void Number3()
     {   
@@ -307,15 +307,6 @@ public class Math
         
         Random nums2= new Random();  
         int Nums2= nums2.nextInt(10)+1;       
-
-        Random nums3= new Random();  
-        int Nums3= nums3.nextInt(10)-1;
-        
-        Random nums4= new Random();  
-        int Nums4= nums4.nextInt(10)+2;
-
-        Random nums5= new Random();  
-        int Nums5= nums5.nextInt(10)-2;
 
         // done creating those 5 random numbers
 
@@ -333,8 +324,8 @@ public class Math
         while(Wrongcount3<4)
         {
             System.out.println("Solve : ");
-            System.out.println(Nums1+" ÷ "+ Nums2+ " ÷ "+ Nums3+" ÷ " +Nums4+ " ÷ " + Nums5+ " =  ");
-            int Answer4= Nums1/Nums2/Nums3/Nums4/Nums5;
+            System.out.println(Nums1+" ÷ "+ Nums2+ " =  ");
+            int Answer4= Nums1/Nums2;
 
             //this gives the user another chance if he/she didn't get the answer right on the first try...
             try
@@ -399,7 +390,7 @@ public class Math
         System.out.println();
         System.out.println("Welcome to stage 5");
         System.out.println();
-        //creating 5 random numbers 
+        //creating 2 random numbers 
 
         Random numS1= new Random();
         int NumS1= numS1.nextInt(10);
@@ -416,7 +407,7 @@ public class Math
         Random numS5= new Random();  
         int NumS5= numS5.nextInt(10)-2;
 
-        // done creating those 5 random numbers
+        // done creating those 2 random numbers
 
         //creating an Int that will allow the user to repeat his/her answer 3 times if he/she doesn't get the answer right
         int Wrongcount4=0; //if the user input wrong number 
@@ -815,15 +806,6 @@ public class Math
         Random nums2= new Random();  
         int Nums2= nums2.nextInt(10)+1;       
 
-        Random nums3= new Random();  
-        int Nums3= nums3.nextInt(10)-1;
-        
-        Random nums4= new Random();  
-        int Nums4= nums4.nextInt(10)+2;
-
-        Random nums5= new Random();  
-        int Nums5= nums5.nextInt(10)-2;
-
         // done creating those 5 random numbers
 
         //creating an Int that will allow the user to repeat his/her answer 3 times if he/she doesn't get the answer right
@@ -840,8 +822,8 @@ public class Math
         while(Wrongcount3<4)
         {
             System.out.println("Solve : ");
-            System.out.println(Nums1+" ÷ "+ Nums2+ " ÷ "+ Nums3+" ÷ " +Nums4+ " ÷ " + Nums5+ " =  ");
-            int Answer4= Nums1/Nums2/Nums3/Nums4/Nums5;
+            System.out.println(Nums1+" ÷ "+ Nums2+ " =  ");
+            int Answer4= Nums1/Nums2;
 
             //this gives the user another chance if he/she didn't get the answer right on the first try...
             try
