@@ -62,11 +62,13 @@ public class Math
                     Answer= Num1*Num2*Num3*Num4*Num5;
                 }else
                 if(stageCounter==4|| stageCounter ==9){
+                    if(Num2==0) Num2+=1;    //Underminig division by 0 error.
                     System.out.println("Solve : ");
                     System.out.println(Num1+" ÷ "+ Num2+ " =  ");
                     Answer= Num1/Num2;
                 }else
                 if(stageCounter==5|| stageCounter ==10){
+                    if(Num5==0) Num5+=1;    //Underminig division by 0 error.
                     System.out.println("Solve : ");
                     System.out.println(Num1+" + "+ Num2+ " - "+ Num3+" * " +Num4+ " ÷ " + Num5+ " =  ");
                     Answer= Num1+Num2-Num3*Num4/Num5;
