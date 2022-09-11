@@ -22,7 +22,7 @@ public class Math
 		System.out.println();
     }
     //STAGE 1 TO 10
-	public static void stage_1_to_10()
+	public static void level_1()
 	{
         int stageCounter = 1;
         for(int i= 0;i<10;i++){
@@ -126,6 +126,6 @@ public class Math
 	// END OF STAGE 1 TO 10
     	public static void main(String[] args)
 	{
-		stage_1_to_10();
+		level_1();
 	}
 }
