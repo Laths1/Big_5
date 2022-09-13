@@ -65,7 +65,7 @@ public class TicTacToe{
      * @return returns false if length of solutions is 0, this would be a draw. returns true if the position on the board matches with a valid solution.
      */
     public static boolean checkAnswer(ArrayList<ArrayList<Integer>>solutions,int[][] cArray){
-        System.out.println(solutions.size());
+        //System.out.println(solutions.size());
         int[] indices ={cArray[0][0],cArray[0][1],cArray[0][2],
                         cArray[1][0],cArray[1][1],cArray[1][2],
                         cArray[2][0],cArray[2][1],cArray[2][2]};
