@@ -29,7 +29,7 @@ public class TicTacToe{
         //gets input from user.
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter" +" "+s+":");
-        return sc.nextInt(); 
+        return sc.nextInt()-1; 
     }
     /**checkEmptyIndex
      * This method checks if the user chose an empty index to enter X or O.If an index contains a value, this method is called again until the user chooses an empty index.
