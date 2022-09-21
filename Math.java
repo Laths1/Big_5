@@ -1,6 +1,6 @@
 import java.util.*;
 
-//THIS IS LEVEL 1 I NEED TO DO 2 MORE LEVELS
+//THIS IS LEVEL 1 
 public class Math
 {
     /**randomNumGenerator
@@ -78,14 +78,15 @@ public class Math
                 try
                 {
                     int User1=user1.nextInt();
-                    System.out.println("Enter your answer..."+ User1);
                     Rightcount++;
 
-                    if( Rightcount<4 && Answer!=User1)
+                    if(User1!=Answer  && Rightcount<4)
                         {
                         System.out.println("Try again...");
-                        //System.out.println("Enter your answer: "+User1);
+			User1=user1.nextInt();
+			Rightcount++;
                         
+			    
                             if (Rightcount==3 && User1!=Answer)
                             {
                                 // The method is terminated if the user runs out of tries.
@@ -96,19 +97,23 @@ public class Math
                             }
                             else if (Rightcount !=3 && User1==Answer)
                             {
-                                // im still thinking about this one but the goal here is to make this part of the code to direct the user to the second level
                                 System.out.println("Congratulations you've got it after "+ Rightcount+" Tries !");
-                                
+                                stageCounter+=1;
                                 break;  //this is a temporary break code since im trying to figure out how to connect the code that will re direct me to the second level
                             }
                     }
                     //this is the asks the user if she/ he wants to go to the second level after she/he got the answer in the first try.
-                    else if (Answer==User1) 
+                    else if (Rightcount==1  &&Answer==User1) 
                     {
                         System.out.println("Congratulations you've got it" );
                         System.out.println("You got it after "+Rightcount+" tries");
                         stageCounter+=1;
-                        break;//this is temporaly
+			if (User1==Answer && stageCounter ==11)
+                        {
+                            System.out.println("Well done you have finished the game.");
+                            break;
+                        }
+                        //break;//this is temporaly
                     }
                 }
                 catch(InputMismatchException e)
