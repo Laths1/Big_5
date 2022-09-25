@@ -10,7 +10,6 @@ Luphumlo Hamla
 
 Tshiamo Khosana
 
-Uyazi Yako
 
 ### Group Mentor : Sihle Sithole
 ### Project Title :
