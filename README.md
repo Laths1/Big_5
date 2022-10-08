@@ -12,7 +12,7 @@ Tshiamo Khosana
 
 
 ### Group Mentor : Sihle Sithole
-### Project Title :
+### Project Title :TIC TAC TOE
 ### Project Page :
 
 ************
@@ -21,6 +21,9 @@ INSTRUCTIONS
 *****
 TOOLS
 *****
+The tools used in this project will be:
+-A text editor of choice
+-The android studio app 
 ********
 CONCEPTS
 ********
