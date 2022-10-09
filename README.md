@@ -12,24 +12,30 @@ Tshiamo Khosana
 
 
 ### Group Mentor : Sihle Sithole
-### Project Title :
-### Project Page :
+### Project Title : Tic Tac Toe 
+### Project Page : Tic Tac Toe Game
 
 ************
 INSTRUCTIONS
 ************
+We as the Big 5 we have 2 versions of Tic Tac Toe, we have the demo version and the android studio version.
+The Demo version has to be run on the terminal and the android studio version has to be run on Android Studio.
+Note: we also have a Mathematics game that Prints a mathematical expression and ask the user for the answer, this game is only a demo version it doesn't have an Android Studio version yet.
 *****
 TOOLS
 *****
+We have used android studio to build the apk; and use text editors (sublime, Visual studio code, notepad++) to write the codes for the demos.
 ********
 CONCEPTS
 ********
 ***********
 ASSUMPTIONS
 ***********
+All our codes are original, and our games (the demos, and the android studio version) works pretty well with very little errors, that only a very good programmer can find them.
 ***********
 LIMITATIONS
 ***********
+
 *************************************
 DOCUMENTATION AND CODING CONVENTIONS
 *************************************
